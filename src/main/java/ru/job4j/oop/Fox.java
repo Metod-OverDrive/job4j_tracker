@@ -8,7 +8,7 @@ public class Fox {
         this.ball = ball;
     }
 
-    void tryEat() {
+    public void tryEat() {
         ball.tryRun(true);
     }
 

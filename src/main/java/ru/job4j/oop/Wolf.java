@@ -8,7 +8,7 @@ public class Wolf {
         this.ball = ball;
     }
 
-    void tryEat() {
+    public void tryEat() {
         ball.tryRun(false);
     }
 }
