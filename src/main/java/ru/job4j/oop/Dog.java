@@ -1,7 +1,6 @@
 package ru.job4j.oop;
 
 public class Dog {
-    public Dog() { }
 
     public static void main(String[] args) {
         Dog polkan = new Dog();
