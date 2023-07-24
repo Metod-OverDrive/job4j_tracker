@@ -20,10 +20,6 @@ public class Calculator {
         return sum(y) + minus(y) + this.divide(y);
     }
 
-
-
-
-
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
 
