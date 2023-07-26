@@ -47,12 +47,10 @@ public class Tracker {
     }
 
     public boolean delete(int id) {
-        boolean result = false;
-        int index = this.indexOf(id);
-        boolean valid = index != -1;
-        if (valid) {
-            int length = this.size - index - 1;
-            System.arraycopy(items, index, items, index + 1, length);
+        int index = indexOf(id);
+        boolean result = index != -1;
+        if (result) {
+            System.arraycopy(items, index + 1, items, index, size - index - 1);
             items[size - 1] = null;
             size--;
         }
