@@ -12,4 +12,5 @@ public class FactRec {
         int rsl = calc(18);
         System.out.println(rsl);
     }
+
 }
