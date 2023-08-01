@@ -75,9 +75,6 @@ public class StartUITest {
                 new String[] {"15", "0"}
         );
         Tracker tracker = new Tracker();
-//        UserAction[] actions = new UserAction[]{
-//                new ExitAction(out)
-//        };
         List<UserAction> actions = new ArrayList<>();
         actions.add(new ExitAction(out));
         new StartUI(out).init(in, tracker, actions);
